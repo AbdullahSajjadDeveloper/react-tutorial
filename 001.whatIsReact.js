@@ -1,7 +1,11 @@
 /*
-  What is React.JS?
-    - React.JS is a JavaScript Library for building web-interfaces.
-    - It is developed by Facebook.
-    - It is based on Component-Based approach.
-    - We can use JSX (JavaScript and XML) in it.
+  React (Web framework):-
+    React is an open-source JavaScript library for building user interfaces or UI component. It is maintained by Facebook and a community of individual developers and companies.
+    React can be used as a base in the development of single-page or mobile applications.
+    
+    Original author(s): Jordan Walke
+    Initial release: May 29, 2013; 7 years ago
+    License: MIT License
+    Developer(s): Facebook and community
+    Platform: Web platform
 */
