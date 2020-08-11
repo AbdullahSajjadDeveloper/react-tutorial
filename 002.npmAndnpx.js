@@ -16,4 +16,7 @@
  How to install react and create react app using npx?
   - Directly create a react app locally:-
     - npx create-react-app react-tutorial
+    
+How to rub react project?
+  - npm start
 */
