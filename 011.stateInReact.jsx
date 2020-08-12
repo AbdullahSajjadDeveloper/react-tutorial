@@ -31,7 +31,7 @@ class FollowAbdullahOnGithub extends React.Component {
         return(
             <div>
                 <h1>{this.state.followOrNot}</h1> // Calling the followOrNot state.
-                <button onClick={ () => { this.followedAbdullah() } }>Follow Abdullah Sajjad</button> // To call the state changing function followedAbdullah() in the onClick it must be in the another function.
+                <button onClick={ () => { this.followedAbdullah() } }>Follow Abdullah Sajjad</button> // To call the state changing function followedAbdullah() in the onClick it must be in the another function but you can call it directly but if when which function you are calling must be a arrow function.
             </div>
         );
     }
