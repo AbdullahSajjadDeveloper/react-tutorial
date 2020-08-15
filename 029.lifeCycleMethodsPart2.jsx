@@ -15,7 +15,7 @@ class LifeCycleA extends React.Component {
     this.state = {};
   }
 
-  static getDerivedStateFromProps() { // It will run before running Render() {} because we can define thingsin it that should br runned befor rundering dom.
+  static getDerivedStateFromProps(props, state) { // It will run before running Render() {} because we can define thingsin it that should br runned befor rundering dom.
     console.log("LifeCycleA : getDerivedStateFromProps"); // It will run secondly.
     return null;
   }
