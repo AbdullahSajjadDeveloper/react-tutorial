@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Array Destructuring</title>
+  </head>
+  <body>
+    <script>
+      // Array Destructuring
+      const programmingLanguages = ["JavaScript", "PHP", "Java"];
+      const [progLang1, progLang2, progLang3] = programmingLanguages;
+      document.write(progLang1, progLang2, progLang3, "<br></br>");
+
+      const names = [
+        "Abdullah Sajjad",
+        "Nouman",
+        "Abu Bakar",
+        "Arham",
+        "Moazzam",
+      ];
+      const [firstName, , , , lastName] = names;
+      document.write(firstName, lastName, "<br></br>");
+
+      // Object Destructuring
+      const bioData = {
+        name: "Abdullah Sajjad",
+        age: 14,
+        phone: [123456789121, 123456789122, 123456789123],
+        friends: [
+          {
+            name: "Nouman",
+            age: 13,
+          },
+          {
+            name: "Abu Bakar",
+            age: 14,
+          },
+          {
+            name: "Moazzam",
+            age: 12,
+          },
+        ],
+      };
+      let { name, age } = bioData;
+      document.write(name, age, "<br></br>");
+      let { phone } = bioData;
+      document.write(phone, phone[0], "<br></br>");
+      let { friends } = bioData;
+      document.write(friends[0].name, "<br></br>");
+    </script>
+  </body>
+</html>
