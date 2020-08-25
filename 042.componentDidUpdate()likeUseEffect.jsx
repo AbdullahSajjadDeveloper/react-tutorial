@@ -29,7 +29,7 @@ class App extends Component {
     });
   };
   componentDidUpdate(prevProp, prevState) {
-    if (prevState.age !== this.state.age) {
+    if (prevState.age !== this.state.age) { // It will run only if something changes in age state.
       console.log("component updated!!!");
     }
   }
@@ -69,8 +69,8 @@ import App from "./App";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
     <App />
-  </React.StrictMode>,
+  </React.Fragment>,
   rootElement
 );
